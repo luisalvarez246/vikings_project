@@ -4,8 +4,7 @@ class Saxon extends Soldier
 {
 	constructor(health, strength)
 	{
-		super();
-		this.health = health;
+		super(health);
 		this.strength = strength;
 	}
 
